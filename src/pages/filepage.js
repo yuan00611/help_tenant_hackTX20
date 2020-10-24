@@ -11,17 +11,7 @@ function filepage() {
   return (
     <div className="container">
       <Header title="FILE ARCHIVE" />
-      <div className="section">
-        <form>
-          <input type="text" placeholder="search keywords..." className="search-input" />
-        </form>
-      </div>
-      <div className="section">
-        <h3>All files</h3>
-        <div className="file-table">
-          <Files />
-        </div>
-      </div>
+      <Files />
 
       <div class="button">
       <Button content="+ New File" />
