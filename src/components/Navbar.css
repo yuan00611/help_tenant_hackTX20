@@ -13,17 +13,34 @@ ul {
     width: 25vw;
     /* float: left; */
     height: 100vh;
-    background-color: #f8f8f8;
     float: left;
     position: fixed;
 }
 
 .navbar-logo {
     font-size: 2rem;
-    padding: 2rem;
+    padding: 2rem 0 0 2rem;
 }
 
 .nav-item {
-    width: 100%;
-    padding: 2rem 0 2rem 0;
+    display: block;
+    padding: 1rem 0 1rem 2rem;
+    /* background-color: #fff; */
+}
+
+.nav-item-selected {
+    padding: 1rem 0 1rem 2rem;
+    background-color: #fff;
+    border-left: 0.4rem solid #9b51e0;
+    /* color: #9b51e0; */
+}
+
+.nav-title {
+    margin-left: 2rem;
+    color: #000;
+}
+
+.nav-title-selected {
+    margin-left: 1.6rem;
+    color: #9b51e0;
 }
