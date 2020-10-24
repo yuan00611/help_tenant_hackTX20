@@ -11,6 +11,7 @@ import contactpage from './pages/contactpage.js';
 
 function App() {
   return (
+  	
     <Router>
       <Navbar />
       <Switch>
