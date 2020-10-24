@@ -9,13 +9,10 @@ ul {
 
 /* navbar */
 .navbar-container {
-    width: 25vw;
-    height: 100vh;
     background-color: #f8f8f8;
-
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    width: 25vw;
+    float: left;
+    height: 100vh;
 }
 
 .navbar-logo {
@@ -25,6 +22,5 @@ ul {
 
 .nav-item {
     width: 100%;
-    /* background-color: #fff; */
     padding: 2rem 0 2rem 0;
 }
