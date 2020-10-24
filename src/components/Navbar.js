@@ -19,22 +19,22 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links">
+                            <Link to="/issue" className="nav-links">
                                 Issue Speaker
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links">
+                            <Link to="/chat" className="nav-links">
                                 Tenant Chat
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links">
+                            <Link to="/file" className="nav-links">
                                 File Archive
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links">
+                            <Link to="/contact" className="nav-links">
                                 Contact Landlord
                             </Link>
                         </li>
