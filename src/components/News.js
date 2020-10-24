@@ -7,7 +7,10 @@ const News = ({
     return (
         <div className="news-containter">
             <div>
-            <p><span>{date}</span><span> {content}</span></p>
+            <p>
+                <span>{date}</span>
+                <span> {content}</span>
+            </p>
             </div>
         </div>
     )
