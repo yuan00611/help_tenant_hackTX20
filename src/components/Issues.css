@@ -41,3 +41,6 @@
 .solved-issues .issue-container p>span:last-child span {
     border: 1px solid #888;
 }
+.solved-issues form {
+    display: none;
+}
