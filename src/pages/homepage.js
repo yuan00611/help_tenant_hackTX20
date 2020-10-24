@@ -30,14 +30,14 @@ function homepage() {
                   <div className="card-container">
                       <FaQuestion />
                       <h3 className="primary-color">Issue Speaker</h3>
-                      <p>Find other tenants experiencing same issue.</p>
+                      <p>Find other tenants experiencing the same issue.</p>
                   </div>
                 </Link>
                 <Link to="/chat" className="nav-links">
                   <div className="card-container">
                       <BsFillChatDotsFill />
-                      <h3 className="primary-color">Issue Speaker</h3>
-                      <p>Find other tenants experiencing same issue.</p>
+                      <h3 className="primary-color">Tenant Chat</h3>
+                      <p>Discuss living issues with other tenants.</p>
                   </div>
                 </Link>
                 <Link to="/file" className="nav-links">
