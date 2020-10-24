@@ -1,12 +1,14 @@
 import React from 'react';
 import './filepage.css';
-// import Navbar from './components/Navbar';
+import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function filepage() {
   return (
     <div>
-      <h1>FILE ARCHIVE</h1>
+      <Navbar />
+      <Header title="FILE ARCHIVE" />
     </div>
   );
 }

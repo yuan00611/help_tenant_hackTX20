@@ -13,6 +13,12 @@ ul {
     width: 25vw;
     float: left;
     height: 100vh;
+    background-color: #f8f8f8;
+    float: left;
+
+    /*display: flex;
+    flex-direction: column;
+    align-items: stretch;*/
 }
 
 .navbar-logo {
