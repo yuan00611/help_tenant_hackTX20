@@ -3,16 +3,16 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import homepage from './pages/homepage.js';
-import issuepage from './pages/issuepage.js';
-import chatpage from './pages/chatpage.js';
-import filepage from './pages/filepage.js';
-import contactpage from './pages/contactpage.js';
+import homepage from './components/pages/homepage.js';
+import issuepage from './components/pages/issuepage.js';
+import chatpage from './components/pages/chatpage.js';
+import filepage from './components/pages/filepage.js';
+import contactpage from './components/pages/contactpage.js';
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Switch>
         <Route exact path='/' component={homepage} />
         <Route  path='/issue' component={issuepage} />

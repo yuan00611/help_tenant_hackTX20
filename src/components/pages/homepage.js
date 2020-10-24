@@ -1,13 +1,18 @@
 import React from 'react';
+import Navbar from '../Navbar';
 import './homepage.css';
-// import Navbar from './components/Navbar';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function homepage() {
   return (
-    <div>
-      <h1>HOME</h1>
+    <>
+    <div className="page">
+      <Navbar />
+      <div className="home-container">
+        <h1>Hello, Jessie!</h1>
+      </div>
     </div>
+    </>
   );
 }
 
