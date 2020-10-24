@@ -1,5 +1,19 @@
-.home-container {
-    width: 50vw;
-    overflow: hidden;
-    padding: 8rem;
-} 
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 22vw;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    text-align: center;
+
+    margin: 0.5rem;
+}
+
+.card-container:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
