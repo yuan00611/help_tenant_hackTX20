@@ -13,4 +13,33 @@ html {
 body {
   height: 100vh;
   margin: 0;
+  background-color: #F2F2F2;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 200%;
+}
+
+.primary-color {
+  color: #9B51E0;
+}
+
+.container {
+  margin-left: 25vw;
+  width: 50vw;
+  overflow: hidden;
+  padding: 8rem 0 0 8rem;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.inner-section {
+  margin-top: 1rem;
 }
