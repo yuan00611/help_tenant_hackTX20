@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import homepage from './pages/homepage.js';
@@ -12,7 +12,6 @@ import contactpage from './pages/contactpage.js';
 function App() {
   return (
     <Router>
-      <Navbar />
       <Switch>
         <Route exact path='/' component={homepage} />
         <Route  path='/issue' component={issuepage} />

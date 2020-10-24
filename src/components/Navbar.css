@@ -12,10 +12,11 @@ ul {
     width: 25vw;
     height: 100vh;
     background-color: #f8f8f8;
+    float: left;
 
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: stretch;*/
 }
 
 .navbar-logo {
@@ -25,6 +26,5 @@ ul {
 
 .nav-item {
     width: 100%;
-    /* background-color: #fff; */
     padding: 2rem 0 2rem 0;
 }
