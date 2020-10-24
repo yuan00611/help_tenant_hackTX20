@@ -1,0 +1,15 @@
+.news-containter:nth-child(1) {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+.news-containter:nth-child(2) {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 0;
+}
+.news-containter:nth-child(3) {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+}
