@@ -9,7 +9,9 @@ ul {
 
 /* navbar */
 .navbar-container {
+    background-color: #f8f8f8;
     width: 25vw;
+    float: left;
     height: 100vh;
     background-color: #f8f8f8;
     float: left;
