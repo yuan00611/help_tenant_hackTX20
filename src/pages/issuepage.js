@@ -7,20 +7,11 @@ import { Issues } from '../components/Issues';
 
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function issuepage() {
+function Issuepage() {
   return (
     <div className="container">
       <Header title="ISSUE SPEAKER" />
-      <div className="section">
-        <form>
-          <input type="text" placeholder="search keywords..." className="search-input" />
-        </form>
-      </div>
-      <div className="section">
-        <div className="open-issues">
-          <Issues />
-        </div>
-      </div>
+      <Issues />
       <div className="section">
         <h3>Solved issues</h3>
         <div className="solved-issues">
@@ -35,4 +26,4 @@ function issuepage() {
   );
 }
 
-export default issuepage;
+export default Issuepage;
