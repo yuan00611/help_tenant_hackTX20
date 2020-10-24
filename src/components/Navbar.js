@@ -20,7 +20,7 @@ const Navbar = ({currentRoute}) => {
                     </Link>
                     <ul className="section">
                         <li>
-                            <NavLink to="/" activeStyle={{
+                            <NavLink exact to="/" activeStyle={{
                                 borderLeft: "0.4rem solid #9b51e0",
                                 backgroundColor: "#ffffff", 
                                 color: "#000000"

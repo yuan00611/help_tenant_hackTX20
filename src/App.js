@@ -8,6 +8,7 @@ import issuepage from './pages/issuepage.js';
 import Chatpage from './pages/chatpage.js';
 import filepage from './pages/filepage.js';
 import contactpage from './pages/contactpage.js';
+import testpage from './pages/testpage.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route  path='/chat' component={Chatpage} />
         <Route  path='/file' component={filepage} />
         <Route  path='/contact' component={contactpage} />
+        <Route  path='/test' component={testpage} />
       </Switch>
     </Router>
   );
