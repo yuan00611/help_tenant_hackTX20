@@ -11,7 +11,7 @@ function Header(props) {
   return (
     <div>
       <IconContext.Provider value={{size: '2rem'}}>
-      <Link to='/home'> 
+      <Link to='/'> 
         <h2><AiOutlineArrowLeft className="arrow" /> {props.title}</h2>
       </Link>
       </IconContext.Provider>
