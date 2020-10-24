@@ -1,0 +1,22 @@
+.button {
+    position: fixed;
+    bottom: 1rem;
+    left: 50vw;
+}
+.button-container {
+    cursor: pointer;
+    color: #fff;
+    background-color: #F2944A;
+    width: 200px;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-container:hover {
+    color: #F2944A;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #F2944A inset;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './issuepage.css';
 import Header from '../components/Header';
 import Issue from '../components/Issue';
+import Button from '../components/Button';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function issuepage() {
@@ -44,7 +45,11 @@ function issuepage() {
             date="10/21"
             content="My apartment loses power."
             echoNumber="2" />
+          <br/><br/><br/>
         </div>
+      </div>
+      <div class="button">
+      <Button content="+ New Issue" />
       </div>
     </div>
   );
