@@ -36,7 +36,7 @@ function homepage() {
                 <Link to="/chat" className="nav-links">
                   <div className="card-container">
                       <BsFillChatDotsFill />
-                      <h3 className="primary-color">Issue Speaker</h3>
+                      <h3 className="primary-color">Tenant Chat</h3>
                       <p>Find other tenants experiencing same issue.</p>
                   </div>
                 </Link>
