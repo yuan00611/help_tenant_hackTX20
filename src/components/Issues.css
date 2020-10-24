@@ -1,26 +1,26 @@
-.issue-containter p {
+.issue-container p {
     background-color: #fff;
     padding: 1rem 1.5rem 1rem 1.5rem;
     border-radius: 1rem;
 }
 
-.issue-containter p>span {
+.issue-container p>span {
     display: inline-block;
     width: 80%;
 }
 
-.issue-containter p>span:last-child {
+.issue-container p>span:last-child {
     width: 20%;
     text-align: right;
 }
 
-.issue-containter p>span:last-child {
+.issue-container p>span:last-child {
     width: 20%;
     text-align: right;
     color: #9B51E0;
 }
 
-.issue-containter p>span:last-child span {
+.issue-container p>span:last-child span {
     padding: 0.29rem 0.5rem 0.29rem 0.5rem;
     border-radius: 50%;
     border: 1px solid #9B51E0;
@@ -32,12 +32,12 @@
 }
 
 /* solved issues */
-.solved-issues .issue-containter p>span:first-child {
+.solved-issues .issue-container p>span:first-child {
     text-decoration: line-through;
 }
-.solved-issues .issue-containter p>span:last-child {
+.solved-issues .issue-container p>span:last-child {
     color: #888;
 }
-.solved-issues .issue-containter p>span:last-child span {
+.solved-issues .issue-container p>span:last-child span {
     border: 1px solid #888;
 }

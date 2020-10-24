@@ -1,0 +1,46 @@
+{
+    "issues": [
+      {
+        "date": "10/21",
+        "content": "I don't have hot water",
+        "echoNumber": "12"
+      },
+      {
+        "date": "10/20",
+        "content": "Noices during the night",
+        "echoNumber": "5"
+      },
+      {
+        "date": "10/19",
+        "content": "My apartment loses power.",
+        "echoNumber": "2"
+      }
+    ],
+
+    "files": [
+        {
+            "name": "Name",
+            "date": "Date Created",
+            "size": "Size",
+            "url": ""
+        },
+        {
+            "name": "Toilet repair request.pdf",
+            "date": "Oct 19, 2020",
+            "size": "1.2MB",
+            "url": ""
+        },
+        {
+            "name": "Broken window.jpg",
+            "date": "Oct 08, 2020",
+            "size": "465kB",
+            "url": ""
+        },
+        {
+            "name": "Oct utility bill.pdf",
+            "date": "Oct 19, 2020",
+            "size": "1.5MB",
+            "url": ""
+        }]
+  }
+  

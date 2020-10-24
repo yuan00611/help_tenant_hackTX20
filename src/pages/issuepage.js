@@ -1,8 +1,10 @@
 import React from 'react';
 import './issuepage.css';
 import Header from '../components/Header';
-import Issue from '../components/Issue';
+// import Issue from '../components/Issue';
 import Button from '../components/Button';
+import { Issues } from '../components/Issues';
+
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function issuepage() {
@@ -16,35 +18,13 @@ function issuepage() {
       </div>
       <div className="section">
         <div className="open-issues">
-          <Issue 
-            date="10/21"
-            content="I don't have hot water"
-            echoNumber="12" />
-          <Issue 
-            date="10/20"
-            content="Noices during the night"
-            echoNumber="5" />
-          <Issue 
-            date="10/21"
-            content="My apartment loses power."
-            echoNumber="2" />
+          <Issues />
         </div>
       </div>
       <div className="section">
         <h3>Solved issues</h3>
         <div className="solved-issues">
-          <Issue 
-            date="10/21"
-            content="I don't have hot water"
-            echoNumber="12" />
-          <Issue 
-            date="10/20"
-            content="Noices during the night"
-            echoNumber="5" />
-          <Issue 
-            date="10/21"
-            content="My apartment loses power."
-            echoNumber="2" />
+          <Issues />
           <br/><br/><br/>
         </div>
       </div>
