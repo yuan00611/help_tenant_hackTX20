@@ -13,14 +13,14 @@ const Navbar = ({currentRoute}) => {
         <IconContext.Provider value={{color: '#000'}}>
             <div className="navbar">
                 <div className="navbar-container">
-                    <Link to='/home'>
+                    <Link to='/'>
                         <div className="navbar-logo">
                         <span className="primary-color">Tenant</span><span className="secondary-color">Circle</span>
                         </div>
                     </Link>
                     <ul className="section">
                         <li>
-                            <NavLink to="/home" activeStyle={{
+                            <NavLink to="/" activeStyle={{
                                 borderLeft: "0.4rem solid #9b51e0",
                                 backgroundColor: "#ffffff", 
                                 color: "#000000"
