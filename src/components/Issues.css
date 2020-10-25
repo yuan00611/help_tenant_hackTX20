@@ -4,18 +4,17 @@
     border-radius: 1rem;
 }
 
+.issue-container p>span:first-child {
+    display: inline-block;
+    width: 10%;
+}
 .issue-container p>span {
     display: inline-block;
     width: 80%;
 }
 
 .issue-container p>span:last-child {
-    width: 20%;
-    text-align: right;
-}
-
-.issue-container p>span:last-child {
-    width: 20%;
+    width: 10%;
     text-align: right;
     color: #9B51E0;
 }
