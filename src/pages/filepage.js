@@ -12,7 +12,7 @@ function filepage() {
       <Header title="FILE ARCHIVE" />
       <Files />
 
-      <div class="button">
+      <div className="button">
       <Button content="+ New File" />
       </div>
     </div>

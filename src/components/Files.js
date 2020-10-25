@@ -40,7 +40,7 @@ export class Files extends Component {
                     <div className="file-container">
                         <div className="file-row">
                             <div className="file">
-                                <p><a href="">Name</a></p>
+                                <p><a href="/">Name</a></p>
                                 <p>Data Created</p>
                                 <p>Size</p>
                             </div>

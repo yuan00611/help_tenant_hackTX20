@@ -34,13 +34,6 @@ function homepage() {
                       <p>Find other tenants experiencing the same issue.</p>
                   </div>
                 </Link>
-                <Link to="/chat" className="nav-links">
-                  <div className="card-container">
-                      <BsFillChatDotsFill />
-                      <h3 className="primary-color">Tenant Chat</h3>
-                      <p>Have questions? Discuss living issues with other tenants.</p>
-                  </div>
-                </Link>
                 <Link to="/file" className="nav-links">
                   <div className="card-container">
                       <FaFolder />
@@ -54,7 +47,14 @@ function homepage() {
                       <h3 className="primary-color">Contact Landlord</h3>
                       <p>Email, phone call, or leave landlord a message.</p>
                   </div>
-                  </Link>
+                </Link>
+                <Link to="/chat" className="nav-links">
+                  <div className="card-container">
+                      <BsFillChatDotsFill />
+                      <h3 className="primary-color">Tenant Chat</h3>
+                      <p>Have questions? Discuss living issues with other tenants.</p>
+                  </div>
+                </Link>
             </div>
           </div>
         </div>

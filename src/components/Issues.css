@@ -39,6 +39,9 @@
 .solved-issues .issue-container p>span:first-child {
     text-decoration: line-through;
 }
+.solved-issues .issue-container p>span:nth-child(2) {
+    text-decoration: line-through;
+}
 .solved-issues .issue-container p>span:last-child {
     color: #888;
 }

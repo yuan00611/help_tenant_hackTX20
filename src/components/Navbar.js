@@ -37,15 +37,7 @@ const Navbar = ({currentRoute}) => {
                                 <FaQuestion /><span className="nav-title">Issue Speaker</span>
                             </NavLink>
                         </li>
-                        <li>
-                            <NavLink to="/chat" activeStyle={{
-                                borderLeft: "0.4rem solid #9b51e0",
-                                backgroundColor: "#ffffff", 
-                                color: "#000000"
-                            }} className="nav-item">
-                                <BsFillChatDotsFill /><span className="nav-title">Tenant Chat</span>
-                            </NavLink>
-                        </li>
+                        
                         <li>
                             <NavLink to="/file" activeStyle={{
                                 borderLeft: "0.4rem solid #9b51e0",
@@ -62,6 +54,15 @@ const Navbar = ({currentRoute}) => {
                                 color: "#000000"
                             }} className="nav-item">
                                 <p><FaPhoneAlt /><span className="nav-title">Contact Landlord</span></p>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/chat" activeStyle={{
+                                borderLeft: "0.4rem solid #9b51e0",
+                                backgroundColor: "#ffffff", 
+                                color: "#000000"
+                            }} className="nav-item">
+                                <BsFillChatDotsFill /><span className="nav-title">Tenant Chat</span>
                             </NavLink>
                         </li>
                     </ul>
