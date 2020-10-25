@@ -13,7 +13,7 @@ router.route('/all')
 
     	//var issues = ""
 
-    	connection.query("select * from chats;",
+    	connection.query("select * from files order by timestamp DESC;",
     		function(error, results, fields) {
 		        if (error) {
 		        	throw error;
