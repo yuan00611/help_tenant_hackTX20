@@ -1,0 +1,50 @@
+.issue-container p {
+    background-color: #fff;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.issue-container p>span:first-child {
+    display: inline-block;
+    width: 10%;
+}
+.issue-container p>span {
+    display: inline-block;
+    width: 80%;
+}
+
+.issue-container p>span:last-child {
+    width: 10%;
+    text-align: right;
+    color: #9B51E0;
+}
+
+.issue-container p>span:last-child span {
+    padding: 0.29rem 0.5rem 0.29rem 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #9B51E0;
+}
+
+.echo {
+    text-align: right;
+    color: #888;
+}
+
+.count-active span {
+    background-color: #9B51E0;
+    color: #fff;
+}
+
+/* solved issues */
+.solved-issues .issue-container p>span:first-child {
+    text-decoration: line-through;
+}
+.solved-issues .issue-container p>span:last-child {
+    color: #888;
+}
+.solved-issues .issue-container p>span:last-child span {
+    border: 1px solid #888;
+}
+.solved-issues form {
+    display: none;
+}

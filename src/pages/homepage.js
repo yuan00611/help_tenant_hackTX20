@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 
 
 function homepage() {
+  
   return (
     <>
     <IconContext.Provider value={{color: '#9B51E0', size: '40px'}}>
@@ -37,7 +38,7 @@ function homepage() {
                   <div className="card-container">
                       <BsFillChatDotsFill />
                       <h3 className="primary-color">Tenant Chat</h3>
-                      <p>Discuss living issues with other tenants.</p>
+                      <p>Have questions? Discuss living issues with other tenants.</p>
                   </div>
                 </Link>
                 <Link to="/file" className="nav-links">
