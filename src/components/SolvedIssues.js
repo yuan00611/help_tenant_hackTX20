@@ -10,7 +10,7 @@ function timeConverter(UNIX_timestamp){
     return time;
 }
 
-export class Issues extends Component {
+export class SolvedIssues extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -30,7 +30,7 @@ export class Issues extends Component {
     };
 
     componentDidMount() {
-        fetch('http://localhost:8000/issues/unsolved')
+        fetch('http://localhost:8000/issues/solved')
         .then(response => response.json())
         .then(
             data => {this.setState({results: data})},
@@ -50,7 +50,7 @@ export class Issues extends Component {
                         <div className="inner-section" key={i}>
                         <div className="issue-container">
                             <p>
-                                <span className="primary-color">{timeConverter(result.timestamp)}</span><span> {result.message}</span>
+                                <span>{timeConverter(result.timestamp)}</span><span> {result.message}</span>
                                 {/* <span><span className={this.state.active && 'count-active'} onClick={ () => this.setState({active: !this.state.active}) }>+1</span></span> */}
                                 <span onClick={() => this.setState({ selectedItem: i })} className={this.determineItemStyle(i)}><span onClick={this.increment}>+1</span></span>
                             </p>
