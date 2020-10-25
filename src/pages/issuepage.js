@@ -19,7 +19,7 @@ function Issuepage() {
           <br/><br/><br/>
         </div>
       </div>
-      <div class="button">
+      <div className="button">
       <Button content="+ New Issue" />
       </div>
     </div>
