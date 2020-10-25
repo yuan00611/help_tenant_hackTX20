@@ -1,19 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './File.css';
 
-const File = () => {
-    return(
+const File = ({
+    name, date, size
+}) => {
+    return (
         <div className="file-container">
             <div className="file-row">
                 <div className="file">
-                    <p><a href="/">Name</a></p>
-                    <p>Data Created</p>
-                    <p>Size</p>
+                    <p><a href="/">{name}</a></p>
+                    <p>{date}</p>
+                    <p>{size}</p>
                 </div>
             </div>
         </div>
-        
-        )
+    )
 }
 
 export default File
