@@ -1,0 +1,25 @@
+.send_message {
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #F2994A;
+  border: 2px solid #F2994A;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  text-align: center;
+  float: right;
+}
+
+.send_message:hover {
+  color: #F2994A;
+  background-color: #fff;
+}
+
+.send_message .text {
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 30px;
+}

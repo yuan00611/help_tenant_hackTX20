@@ -1,0 +1,13 @@
+.message{
+	background-color: #FFF;
+	margin: 0.4rem;
+	padding: 0.3rem 0.5rem;
+	border-radius: 5rem;
+}
+
+.message_own {
+	background-color: #E4D7EF;
+	margin: 0.4rem;
+	padding: 0.3rem 0.5rem;
+	border-radius: 5rem;
+}
